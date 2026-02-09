@@ -26,11 +26,17 @@ Input: Three raw CSV files (daily_sales_data_0.csv, daily_sales_data_1.csv, dail
 Processing Steps:
 
 -Filtered rows to keep only Pink Morsels transactions.
+
 -Cleaned the price column (removed $ symbols and redundant values).
+
 -Created a sales column by multiplying quantity and price.
+
 -Extracted only the required columns: sales, date, region.
+
 -Merged data from all three files into a single cleaned dataset.
+
 -Output: final_sales.csv – a consolidated, cleaned dataset ready for visualization.
+
 <img width="1920" height="1036" alt="Screenshot (591)" src="https://github.com/user-attachments/assets/b96320a4-a924-40d6-88b6-e7adcb5d489e" />
 
 
@@ -51,6 +57,7 @@ Features:
 -Styling: Custom CSS applied for a clean, professional interface.
 
 Purpose: Enables Soul Foods to visually compare sales before and after the January 15, 2021 price increase and to drill down into region-specific trends.
+
 <img width="1920" height="1041" alt="Screenshot (592)" src="https://github.com/user-attachments/assets/3521b2b0-3b8c-4d9a-a920-760e3a36dda5" />
 
 
@@ -63,9 +70,13 @@ Testing Framework: pytest with Dash testing utilities.
 Test Cases:
 
 -Header Presence: Verifies that the dashboard title is correctly displayed.
+
 -Visualization Presence: Ensures the line chart component is rendered.
+
 -Region Picker Presence: Confirms that all five radio button options are available.
+
 Result: All three tests pass successfully, confirming the core functionality of the Dash app.
+
 <img width="1920" height="1036" alt="Screenshot (593)" src="https://github.com/user-attachments/assets/ea2ff3c6-2718-493c-adc7-47c1a10247e9" />
 
 
@@ -76,9 +87,13 @@ Result: All three tests pass successfully, confirming the core functionality of 
 Functionality:
 
 -Activates the project’s virtual environment.
+
 -Executes the test suite using pytest.
+
 -Returns exit code 0 if all tests pass, 1 otherwise.
+
 Purpose: This script can be integrated into a CI/CD pipeline (e.g., GitHub Actions, Jenkins) to automatically validate changes before merging.
+
 <img width="1920" height="1038" alt="Screenshot (587)" src="https://github.com/user-attachments/assets/87c71ef5-ab18-400e-82bb-cc114f1c3f50" />
 
 Key Insights from Visualization:
@@ -98,4 +113,5 @@ Technologies Used:
 -Pytest & Selenium – automated testing
 
 -Git & GitHub – version control and collaboration
+
 <img width="1920" height="1043" alt="Screenshot (589)" src="https://github.com/user-attachments/assets/6aaa8adc-c51e-4710-96d9-9f0bbe462156" />
