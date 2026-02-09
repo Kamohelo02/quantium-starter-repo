@@ -6,15 +6,19 @@ The solution answers the key business question:
 “Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?”
 
 Tasks Completed
+
 1. Environment Setup & Repository Initialization
+   
 -Forked and cloned the starter repository from vagabond-systems/quantium-starter-repo.
 
 -Set up a Python virtual environment using Python 3.14.3 (compatible with the project requirements).
 
 Installed required dependencies:
+
 -dash, pandas, plotly, pytest, selenium, webdriver-manager, and dash[testing].
 
 2. Data Processing & Cleaning
+   
 Script: process_sales.py
 
 Input: Three raw CSV files (daily_sales_data_0.csv, daily_sales_data_1.csv, daily_sales_data_2.csv) located in the data/ folder.
@@ -31,6 +35,7 @@ Processing Steps:
 
 
 3. Interactive Dashboard Development
+   
 Script: app.py (Dash application)
 
 Features:
@@ -50,6 +55,7 @@ Purpose: Enables Soul Foods to visually compare sales before and after the Janua
 
 
 4. Automated Testing
+   
 Test File: test_app.py
 
 Testing Framework: pytest with Dash testing utilities.
@@ -64,6 +70,7 @@ Result: All three tests pass successfully, confirming the core functionality of 
 
 
 5. Continuous Integration (CI) Readiness:
+   
 -Script: run_tests.ps1 (PowerShell) / run_tests.sh (Bash)
 
 Functionality:
