@@ -3,6 +3,7 @@
 This project was developed as part of a data engineering and visualization assessment for Soul Foods, a fictional food company. The goal was to process transaction data for their Pink Morsels product line, build an interactive dashboard to visualize sales trends, and implement automated testing for continuous integration.
 
 ***The solution answers the key business question:***
+
 “Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?”
 
 ***Tasks Completed***
@@ -23,7 +24,7 @@ Script: process_sales.py
 
 Input: Three raw CSV files (daily_sales_data_0.csv, daily_sales_data_1.csv, daily_sales_data_2.csv) located in the data/ folder.
 
-Processing Steps:
+***Processing Steps:***
 
 -Filtered rows to keep only Pink Morsels transactions.
 
@@ -44,7 +45,7 @@ Processing Steps:
    
 Script: app.py (Dash application)
 
-Features:
+***Features:***
 
 -Header: “Pink Morsel Sales Visualizer” with custom CSS styling.
 
