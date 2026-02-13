@@ -1,13 +1,13 @@
-Project Overview
+**Project Overview**
 
 This project was developed as part of a data engineering and visualization assessment for Soul Foods, a fictional food company. The goal was to process transaction data for their Pink Morsels product line, build an interactive dashboard to visualize sales trends, and implement automated testing for continuous integration.
 
-The solution answers the key business question:
+***The solution answers the key business question:***
 “Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?”
 
-Tasks Completed
+***Tasks Completed***
 
-1. Environment Setup & Repository Initialization
+**1. Environment Setup & Repository Initialization**
    
 -Forked and cloned the starter repository from vagabond-systems/quantium-starter-repo.
 
@@ -17,7 +17,7 @@ Installed required dependencies:
 
 -dash, pandas, plotly, pytest, selenium, webdriver-manager, and dash[testing].
 
-2. Data Processing & Cleaning
+**2. Data Processing & Cleaning**
    
 Script: process_sales.py
 
@@ -40,7 +40,7 @@ Processing Steps:
 <img width="1920" height="1036" alt="Screenshot (591)" src="https://github.com/user-attachments/assets/b96320a4-a924-40d6-88b6-e7adcb5d489e" />
 
 
-3. Interactive Dashboard Development
+**3. Interactive Dashboard Development**
    
 Script: app.py (Dash application)
 
@@ -61,13 +61,13 @@ Purpose: Enables Soul Foods to visually compare sales before and after the Janua
 <img width="1920" height="1041" alt="Screenshot (592)" src="https://github.com/user-attachments/assets/3521b2b0-3b8c-4d9a-a920-760e3a36dda5" />
 
 
-4. Automated Testing
+**4. Automated Testing**
    
 Test File: test_app.py
 
 Testing Framework: pytest with Dash testing utilities.
 
-Test Cases:
+***Test Cases:***
 
 -Header Presence: Verifies that the dashboard title is correctly displayed.
 
@@ -80,11 +80,11 @@ Result: All three tests pass successfully, confirming the core functionality of 
 <img width="1920" height="1036" alt="Screenshot (593)" src="https://github.com/user-attachments/assets/ea2ff3c6-2718-493c-adc7-47c1a10247e9" />
 
 
-5. Continuous Integration (CI) Readiness:
+**5. Continuous Integration (CI) Readiness:**
    
 -Script: run_tests.ps1 (PowerShell) / run_tests.sh (Bash)
 
-Functionality:
+***Functionality:***
 
 -Activates the project’s virtual environment.
 
@@ -96,13 +96,13 @@ Purpose: This script can be integrated into a CI/CD pipeline (e.g., GitHub Actio
 
 <img width="1920" height="1038" alt="Screenshot (587)" src="https://github.com/user-attachments/assets/87c71ef5-ab18-400e-82bb-cc114f1c3f50" />
 
-Key Insights from Visualization:
+**Key Insights from Visualization:**
 
 -The line chart clearly shows a noticeable drop in sales immediately after January 15, 2021, indicating that the price increase had a negative impact on sales volume.
 
 -Regional filtering reveals that the trend is consistent across all regions, with the south region experiencing the most pronounced decline.
 
-Technologies Used:
+**Technologies Used:**
 
 -Python 3.14.3
 
